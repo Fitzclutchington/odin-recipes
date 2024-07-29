@@ -1,0 +1,52 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+#home-list {
+    font-size: 22px;
+}
+
+ul li::marker {
+    color: #FA5F55;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+
+.title {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+.title h1 {
+    text-align: center;
+}
+
+.recipe-container {
+    margin: auto;
+    width: 50%;
+    border: 3px dotted green;
+    padding: 10px;
+}
+
+.headline {
+    margin: auto;
+    width: 75%;
+}
+
+.recipe-image,
+.recipe-description {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recipe-description {
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding-top: 10px;
+}
