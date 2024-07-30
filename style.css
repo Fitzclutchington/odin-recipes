@@ -33,7 +33,9 @@ ol li::marker {
     padding: 10px;
 }
 
-.headline {
+.headline,
+.ingredients-container,
+.steps-container {
     margin: auto;
     width: 75%;
 }
@@ -49,4 +51,8 @@ ol li::marker {
     height: 100%;
     text-align: left;
     padding-top: 10px;
+}
+
+h1, h2 {
+    color: #424952;
 }
